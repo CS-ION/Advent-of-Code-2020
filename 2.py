@@ -21,7 +21,7 @@ for I in L:
             count+=1
     if count in range(start_val,stop_val):
         valid+=1
-print(valid)
+print('Part1',valid)
 
 #part2
 valid = 0
@@ -34,6 +34,6 @@ for I in L:
         continue
     else:
         valid+=1
-print(valid)
+print('Part2',valid)
 
 

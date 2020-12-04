@@ -1,12 +1,5 @@
-puzzle = '''1
-2
-3
-4
-5'''
-
-#copy paste your puzzle input as multiline string
-
-L = puzzle.split('\n')
+f = open('input.txt','r')
+L = f.read().split('\n')
 L1 = []
 for I in L:
     L1.append(int(I))

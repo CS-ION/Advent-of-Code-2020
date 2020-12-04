@@ -1,11 +1,5 @@
-puzzle = '''...#...###......##.#..#.....##.
-#.#.......##.....#...##..##.#.#
-.......#....#..##...#..#######.
-.#...#.#####....##..........##.'''
-
-#copy paste your puzzle input as multiline string
-
-L = puzzle.split('\n')
+f = open('input.txt','r')
+L = f.read().split('\n')
 for I in range(len(L)):
     L[I] = L[I]*100
 

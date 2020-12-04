@@ -1,11 +1,5 @@
-puzzle = '''2-4 p: vpkpp
-1-8 r: mrrrrrrrrrf
-1-3 w: wwww
-5-6 d: qldxdsdk'''
-
-#copy paste your puzzle input as multiline string
-
-L = puzzle.split('\n')
+f = open('input.txt','r')
+L = f.read().split('\n')
 for I in range(len(L)):
     L[I] = L[I].split(' ')    
 #L = [['4-5', 's:', 'rsssw']]

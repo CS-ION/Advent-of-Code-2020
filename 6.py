@@ -1,4 +1,4 @@
-f = open(r'C:\Users\Toshiba\Desktop\Advent Code\input.txt','r')
+f = open('input.txt','r')
 L = f.read().split('\n\n')
 
 tot_yes,total = 0,0

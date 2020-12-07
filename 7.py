@@ -1,4 +1,4 @@
-f = open(r'C:\Users\Toshiba\Desktop\Advent Code\input.txt','r')
+f = open('input.txt','r')
 L = f.read().split('\n')
 
 gold_bags = [I.split(' ')[0]+' '+I.split(' ')[1] for I in L if 'shiny gold' in I and I.split(' ')[0]+' '+I.split(' ')[1]!='shiny gold']

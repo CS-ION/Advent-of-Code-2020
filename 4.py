@@ -1,6 +1,6 @@
 import re
 
-f = open(r'C:\Users\Toshiba\Desktop\Advent Code\input.txt','r')
+f = open('input.txt','r')
 L = f.read().split('\n\n')
 
 valid_fields = ['byr','iyr','eyr','hgt','hcl','ecl','pid']

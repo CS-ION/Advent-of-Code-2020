@@ -1,4 +1,4 @@
-f = open(r'C:\Users\Toshiba\Desktop\Advent Code\input.txt', 'r')
+f = open('input.txt', 'r')
 L = [list(I)for I in f.read().split('\n')]
 
 def part1():
